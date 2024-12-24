@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login with Firebase</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-auth-compat.js"></script>  
+</head>
+<body>
+  <div id="login-page">
+    <h1>Login</h1>
+    <form id="login-form">
+      <input type="email" id="username" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+      <!-- Custom alert containers -->
+  <div id="success-alert" class="alert success-alert" style="display: none;"></div>
+  <div id="error-alert" class="alert error-alert" style="display: none;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
